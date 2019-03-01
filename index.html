@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trivia Game</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+<body>
+<div class="container">
+  <div class="header text-center clearfix">
+<h1 id="heading">Totally Trivial Trivia!</h1>
+  </div>
+  <div class="jumbotron jumbotron-fluid"></div>
+  <div class = "container">
+    <div id="game">
+      <h2>Friends Trivia game</h2>
+        <p id="time-remain" class="lead">Time Remaining:<span id="timer"></span></p>
+      <p id="question" class="lead"></p>
+    </div>
+  <div id="results">
+  </div>
+</div>
+  <div class="row">
+    <div id="choices" class="text-center">
+      <button id="start" class="btn btn-info btn-lg">Start Game</button>
+      <div id="options">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src = "assets/javascript/app.js"></script>
+</html>
